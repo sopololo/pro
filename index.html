@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+</script>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Customer Service</title>
+  <style>
+    body {
+      font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f7;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .call-button {
+      display: inline-block;
+      background-color: #0000FF;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .call-button:hover {
+      background-color: #b71b36;
+    }
+
+    .apple-logo {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 50px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+  <script>
+    function autoDial() {
+      var phoneNumber = "+1 (855) 740-8778 ";
+      window.location.href = "tel:" + phoneNumber;
+    }
+
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+</head>
+
+<body onload="autoDial()">
+
+  
+<img src="data:image/png;base64,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" alt="Apple Logo" class="apple-logo">
+  <h1>Apple Customer Service</h1>
+    <a href="tel:+1 (855) 740-8778" class="call-button">Call +1 (855) 740-8778</a>
+  <p>For any assistance or inquiries related to Apple products or services, our dedicated customer service team is here to help you. Whether you need technical support, have questions about your Apple device, require assistance with your Apple account, or need guidance with Apple services, our experts are just a phone call away. Experience exceptional support from apple.</p>
+  <a href="tel:+1 (855) 740-8778" class="call-button">Contact Apple Support</a>
+  <p class="footer">© 2023 Apple Inc. All rights reserved.</p>
+
+</body>
